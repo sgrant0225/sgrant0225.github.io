@@ -1,11 +1,11 @@
 # Site settings
 author: Sharnell Grant
-title: 
+title: My journey into programming
 header-img: img/home-bg.png
 email: sharnellgrant@gmail.com
 copyright_name: Sharnell Grant
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Why did you decide to study Software Engineering?”
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  sgrant0225
