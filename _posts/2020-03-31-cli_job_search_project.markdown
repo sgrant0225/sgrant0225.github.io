@@ -14,7 +14,7 @@ The struggle was real,  creating this project.  My brain left  and went out of t
 
 Once I installed my gems and pulled out the information from my API, I was still confused about how to connect it all.  I then started doing what I was familiar with in OOR and which was creating instance methods, class methods, getter/setter methods.  I can't tell you how many times I used pry before it all connected. I think day 5 into my project things started to progress.  With learn instruct videos on repeat, I slowly started to understand it all by reviewing the logic of other cli projects. Also, I had to review week's 3 and 4 lessons of OOR to help understand how to get the information from each of my classes.    My biggest hurdle was just creating my methods without a spec file giving me clues of what the method should return.  Furthermore, what created more frustration was getting my user input and pass that information into another method and display the results of the that input. For example, I initially  wanted my user to input a zip code and I wanted it to return the job information according to the zip code.  That was major fail.  The data from the API was only showing city and state so instead of having the user input their zip code, I based it around city and state.  I will say day 8 into my project concepts started to connect more.  
 
-Example: This method I struggled with
+Example: This struggle method 
 ```
 def users_selection(input)
    case input
@@ -22,7 +22,7 @@ def users_selection(input)
      close
     when 1
       puts "Please enter a location: city, state"
-      #Line below will take in users input's location
+      #Line below will take in users location
       locations = gets.chomp.to_s.capitalize
       job_selection(locations)
     end
