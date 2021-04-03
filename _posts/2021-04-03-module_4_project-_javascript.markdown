@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Module 4 Project- JavaScript"
-date:       2021-04-03 17:32:56 +0000
+date:       2021-04-03 13:32:56 -0400
 permalink:  module_4_project-_javascript
 ---
 
@@ -94,6 +94,9 @@ class RecipeSerializer
 end
 
 ```
+
+To connect my backend with the frontend and to make my first fetch request I had to add a gem CORS.  CORS means cross orgin reference sharing. CORS is a security feature that prevents API calls from unknown origins.  In order for me to make a fetch request to my domain  http://localhost:3000/api/v1/recipes I added the gem 'rack-cors' to my gemfile and updated some information in my configuration file to allow the domain. 
+
 
 I would love to write a full blog about my entire process but I rather share the challenges I faced.  The major challenge  was merging my model attributes together through the front end.  To elaborate more,  I struggled with associating my models and displaying them to the front end and manipulating the DOM to display what the user inputted in the form.  Also, I wanted to add more funtionality and create the app as I envisoned during my planning phase. Furthermore, I struggled with organizing my code and understanding why the functions I created was not displaying the data. That mostly due to scoping. 
 
